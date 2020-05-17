@@ -74,5 +74,4 @@ router.get('/profile/:id', async (req, res) => {
         .send(util.success(statusCode.OK, resMessage.READ_PROFILE_SUCCESS, dto));
 });
 
-
 module.exports = router;
