@@ -107,5 +107,4 @@ dist/
 tmp/
 temp/
 
-config/
 node_modules/
