@@ -1,19 +1,24 @@
 ## User Table
-| userIdx | name | password |
-| ------- | ---- | -------- |
-| khl6235 | haely | 1234 |
-| hhhhh | hlhl | 1000 |
+| userIdx | id | name | password |
+| ------- | -- | ---- | -------- |
+| 1 | khl6235 | haely | 1234 |
+| 2 | hhhhh | hlhl | 1000 |
 
 
 ## Article Table
-| ArticleIdx | author | title | content | likes | comments |
-| ---------- | ------ | ----- | ------- | ----- | -------- |
-| 1 | kim | sopt | outsopt | 20 | "good!" |
-| 1 | kim | sopt | outsopt | 20 | "nice!" |
+| ArticleIdx | author | title | content | likes |
+| ---------- | ------ | ----- | ------- | ----- |
+| 1 | kim | sopt | outsopt | 2 |
 
 
 ## Like Table
 | userIdx | ArticleIdx |
 | ------- | ---------- |
-| khl6235 | 1 |
-| hhhhh | 1 |
+| 1 | 1 |
+| 2 | 1 |
+
+## Comment Table
+| ArticleIdx | comments |
+| ---------- | -------- |
+| 1 | "good!" |
+| 1 | "nice" |
